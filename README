@@ -1,0 +1,8 @@
+This bundle installs a bunch of the "simple to install" modules I
+usually install everywhere.
+
+After this I often install mod_perl by hand (or actually with some
+funny in-house automated scripts) and then Bundle::Apache.
+
+
+ - ask
