@@ -1,3 +1,7 @@
+=item 1.04 - October 1, 1999
+
+Added Bit::Vector
+
 =item 1.03 - September 23, 1999
 
 added Number::Format

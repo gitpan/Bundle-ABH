@@ -1,6 +1,6 @@
 package Bundle::ABH;
 
-$VERSION = "1.03";
+$VERSION = "1.04";
 #$VERSION = sprintf("%d.%02d", q$Revision: 1.0 $ =~ /(\d+)\.(\d+)/);   
 
 1;
@@ -80,6 +80,8 @@ Net::DNS
 Text::Template
 
 App::Config         - For cpan-upload
+
+Bit::Vector         - For MIME::Lite
 
 MIME::Lite          - So nice and easy to send a MIME thingy
 
