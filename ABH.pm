@@ -1,6 +1,6 @@
 package Bundle::ABH;
 
-$VERSION = "1.04";
+$VERSION = "1.05";
 #$VERSION = sprintf("%d.%02d", q$Revision: 1.0 $ =~ /(\d+)\.(\d+)/);   
 
 1;
@@ -25,13 +25,37 @@ Bundle::LWP
 
 CGI
 
-ExtUtils::Embed
+XML::Writer
 
-Mail::Send
+Params::Validate
+
+Parse::RecDescent
+
+Digest::MD5
+
+Digest::SHA1
+
+Unicode::String
+
+XML::Stream
+
+XML::Parser - A Perl module for parsing XML documents
+
+XML::Simple - Easy API to read/write XML (esp config files)
+
+IO::Stringy - I/O on in-core objects like strings and arrays
+
+MIME::Parser - Experimental class for parsing MIME streams
+
+ExtUtils::Embed
 
 Getopt::Long
 
+Cache::Cache
+
 DB_File
+
+Mail::Send
 
 Bundle::DBI
 
@@ -69,13 +93,15 @@ Convert::Translit
 
 Text::Soundex
 
-Font::AFM           - Some of my favorite modules are using this
+Font::AFM           - Other cool modules are using this
 
 Pod::Parser         - For cpan-upload and more
 
 HTML::TreeBuilder
 
 Net::DNS
+
+Net::LDAP
 
 Text::Template
 
@@ -87,13 +113,21 @@ MIME::Lite          - So nice and easy to send a MIME thingy
 
 Set::IntRange
 
-XML::Parser
-
 Date::Calc
 
 Number::Format
 
 Event
+
+Net::Jabber
+
+Net::Daemon
+
+Bundle::DBI
+
+DBD::mysql
+
+DBD::Pg
 
 =head1 DESCRIPTION
 

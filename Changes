@@ -1,3 +1,35 @@
+=item 1.05 - February 26th, 2002
+
+Added Bundle::ABH::Apache with various cool and useful modules that
+requires mod_perl.
+
+To Bundle::ABH the following was added
+
+XML::Writer
+Params::Validate
+Parse::RecDescent
+Digest::MD5
+Digest::SHA1
+Unicode::String
+XML::Stream
+Net::Jabber
+Test::Harness
+Test::Simple
+Text::Balanced
+Image::Info
+Text::Iconv
+MLDBM
+Params::Validate
+Unix::Syslog
+Error
+Cache::Cache
+XML::Simple 
+IO::Stringy 
+MIME::Parser
+SOAP::Lite
+Net::LDAP
+Net::Daemon
+
 =item 1.04 - October 1, 1999
 
 Added Bit::Vector
