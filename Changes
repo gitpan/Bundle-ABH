@@ -1,3 +1,9 @@
+=item 1.02 -
+
+added IO::Scalar
+added Set::IntRange
+added XML::Parser
+
 =item 1.01 - August 27, 1999
 
 added some MIME modules.

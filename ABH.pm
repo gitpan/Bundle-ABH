@@ -1,6 +1,6 @@
 package Bundle::ABH;
 
-$VERSION = "1.01";
+$VERSION = "1.02";
 #$VERSION = sprintf("%d.%02d", q$Revision: 1.0 $ =~ /(\d+)\.(\d+)/);   
 
 1;
@@ -38,6 +38,8 @@ Bundle::DBI
 Devel::Peek
 
 MIME::Base64
+
+IO::ScalarArray      - For MIME::Tools
 
 MIME::Tools
 
@@ -80,6 +82,10 @@ Text::Template
 App::Config         - For cpan-upload
 
 MIME::Lite          - So nice and easy to send a MIME thingy
+
+Set::IntRange
+
+XML::Parser
 
 =head1 DESCRIPTION
 
