@@ -1,4 +1,10 @@
-=item 1.02 -
+=item 1.03 - September 23, 1999
+
+added Number::Format
+added Date::Calc
+added Event
+
+=item 1.02 - August 28, 1999
 
 added IO::Scalar
 added Set::IntRange

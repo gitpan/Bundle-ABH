@@ -1,6 +1,6 @@
 package Bundle::ABH;
 
-$VERSION = "1.02";
+$VERSION = "1.03";
 #$VERSION = sprintf("%d.%02d", q$Revision: 1.0 $ =~ /(\d+)\.(\d+)/);   
 
 1;
@@ -86,6 +86,12 @@ MIME::Lite          - So nice and easy to send a MIME thingy
 Set::IntRange
 
 XML::Parser
+
+Date::Calc
+
+Number::Format
+
+Event
 
 =head1 DESCRIPTION
 
