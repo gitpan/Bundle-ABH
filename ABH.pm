@@ -1,12 +1,11 @@
 package Bundle::ABH;
 
-$VERSION = "0.01";
+$VERSION = "1.01";
 #$VERSION = sprintf("%d.%02d", q$Revision: 1.0 $ =~ /(\d+)\.(\d+)/);   
 
 1;
 
 __END__
-
 
 =head1 NAME
 
@@ -38,6 +37,10 @@ Bundle::DBI
 
 Devel::Peek
 
+MIME::Base64
+
+MIME::Tools
+
 Tie::Handle
 
 Time::HiRes
@@ -52,7 +55,7 @@ Data::ShowTable
 
 LWP::Parallel
 
-TimeDate
+Date::Format
 
 Tie::IxHash
 
@@ -64,13 +67,19 @@ Convert::Translit
 
 Text::Soundex
 
-Pod::Parser
+Font::AFM           - Some of my favorite modules are using this
+
+Pod::Parser         - For cpan-upload and more
 
 HTML::TreeBuilder
 
 Net::DNS
 
 Text::Template
+
+App::Config         - For cpan-upload
+
+MIME::Lite          - So nice and easy to send a MIME thingy
 
 =head1 DESCRIPTION
 

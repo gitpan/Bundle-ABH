@@ -1,3 +1,8 @@
+=item 1.01 - August 27, 1999
+
+added some MIME modules.
+fixed broken TimeDate install
+
 =item 0.01 - August 11, 1999
 
 first public release
